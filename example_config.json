@@ -1,0 +1,20 @@
+{
+  "base": {
+    "src_dir": "path/to/browser_downloads",
+    "radiko_extension_path": "Rajiko_0_3_5",
+    "mouse_positions": {
+      "click chrome extension button": [1000, 500],
+      "pin rajiko": [200, 300],
+      "click rajiko": [300, 200],
+      "click download": [2000, 300]
+    }
+  },
+  "fmb": {
+    "url_template": "https://radiko.jp/#!/ts/BAYFM78/{date}220000",
+    "dst_dir": "/path/to/fmb"
+  },
+  "doya": {
+    "url_template": "https://radiko.jp/#!/ts/QRR/{date}013000",
+    "dst_dir": "/path/to/doya"
+  }
+}
