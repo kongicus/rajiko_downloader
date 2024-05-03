@@ -5,7 +5,7 @@ from mv_files import rename_doya, rename_fmb
 from common.types import ConfigDict
 
 
-with open("config.json") as f:
+with open("config.json", encoding='utf-8') as f:
     _config = json.loads(f.read())
 
 

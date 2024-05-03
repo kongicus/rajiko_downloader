@@ -1,8 +1,12 @@
 # Before using, please ensure configuration file correctness.
+```commandline
+python main.py --radio-name doya
 ```
-main.py --radio-name doya
-main.py --radio-name fmb
+
+```commandline
+python main.py --radio-name fmb
 ```
+
 # About example_config.json
 
 ## "src_dir"
